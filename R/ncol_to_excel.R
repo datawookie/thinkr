@@ -48,6 +48,3 @@ excel_col <- function(){
   c(LETTERS,
     expand.grid(LETTERS,LETTERS)[2:1]  %>% tidyr::unite(Var2,Var1,col="col",sep = "") %>% unlist() %>% unname())
 }
-
-
-

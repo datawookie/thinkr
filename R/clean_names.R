@@ -108,6 +108,3 @@ clean_levels<-function(vec,verbose=FALSE,
   levels(var) <- vec
   invisible(var)
 }
-
-
-

@@ -17,4 +17,3 @@ make_unique <- function(vec, sep = "_") {
   vec[cs > 1] <- paste(vec[cs > 1], cs[cs > 1], sep = sep)
   vec
 }
-

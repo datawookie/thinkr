@@ -16,4 +16,3 @@ test_that("excel_to_ncol works properly", {
 test_that("excel_col works properly", {
   expect_equal(excel_col()[1], "A")
 })
-

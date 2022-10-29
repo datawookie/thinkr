@@ -25,6 +25,3 @@ is.01<-function(x){setequal(sort(unique(as.character(x))),c("0","1"))}
 #' is.12(c(1,1,2,1,5))
 #'
 is.12<-function(x){setequal(sort(unique(as.character(x))),c("1","2"))}
-
-
-

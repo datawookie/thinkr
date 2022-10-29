@@ -30,4 +30,3 @@ save_as_csv <- function(dataset, path, row.names = FALSE, ...) {
   write.csv2(x = dataset, file = path, row.names = row.names, ...)
   invisible(path)
 }
-

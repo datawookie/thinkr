@@ -13,5 +13,3 @@
 is_full_figures <- function(.){
   !(sum(str_detect(.,"[[:alpha:]] | ."), na.rm = TRUE) > 1)
 }
-
-
